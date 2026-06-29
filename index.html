@@ -209,13 +209,12 @@ display:flex;flex-direction:column;align-items:center;justify-content:center;tex
 </div>
 
 <script>
-// 每个纯数字对应的小号
+// 每个纯数字对应的小号（已完全移除了 Mamy，并添加了特定的预填开场白：Hello friend,）
 const WA_POOL = [
-  {name:"Mamy", link:"https://wa.me/8615960543197", event:"WA_1"},
-  {name:"Mia", link:"https://wa.me/8615892083425", event:"WA_2"},
-  {name:"Luna", link:"https://wa.me/8615960548425", event:"WA_3"},
-  {name:"Ella", link:"https://wa.me/8615892079485", event:"WA_4"},
-  {name:"Lily", link:"https://wa.me/8613348312657", event:"WA_5"}
+  {name:"Mia", link:"https://wa.me/8615892083425?text=Hello%20friend%2C", event:"WA_2"},
+  {name:"Luna", link:"https://wa.me/8615960548425?text=Hello%20friend%2C", event:"WA_3"},
+  {name:"Ella", link:"https://wa.me/8615892079485?text=Hello%20friend%2C", event:"WA_4"},
+  {name:"Lily", link:"https://wa.me/8613348312657?text=Hello%20friend%2C", event:"WA_5"}
 ];
 
 function getCookie(name){
